@@ -966,8 +966,8 @@ jQuery(function ($) {
         }
     });
 
-    // Buy Now Btn
-    $('body').append("<a href='https://themeforest.net/checkout/from_item/25566167?license=regular&support=bundle_6month&_ga=2.48970977.634514020.1646539215-1425290503.1590986634' class='buy-now-btn' target='_blank'>Buy Now</a>");
+    // // Buy Now Btn
+    // $('body').append("<a href='https://themeforest.net/checkout/from_item/25566167?license=regular&support=bundle_6month&_ga=2.48970977.634514020.1646539215-1425290503.1590986634' class='buy-now-btn' target='_blank'>Buy Now</a>");
 
 }(jQuery));
 
