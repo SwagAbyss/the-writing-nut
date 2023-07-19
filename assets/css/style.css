@@ -18638,12 +18638,13 @@ Free Trial Area CSS
 }
 
 .start-free-trial-content .start-free-trial-form .form-control1 {
-  height: 200px;
+  height: 100px;
+  width: 546px;
   line-height: 24px;
-  padding: 130px 10px;
+  /* padding: 130px 10px; */
   color: #727695;
   border: none;
-  padding-top: 0.5cm;
+  padding-top: 2px;
   padding-left: 15px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
