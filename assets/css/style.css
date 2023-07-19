@@ -18637,6 +18637,19 @@ Free Trial Area CSS
   margin-bottom: 8px;
 }
 
+.start-free-trial-content .start-free-trial-form .form-control1 {
+  height: 200px;
+  line-height: 24px;
+  padding: 130px 10px;
+  color: #727695;
+  border: none;
+  padding-top: 0.5cm;
+  padding-left: 15px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+
 .start-free-trial-content .start-free-trial-form .form-control {
   color: #727695;
   border: none;
