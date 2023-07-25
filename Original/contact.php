@@ -1,3 +1,8 @@
+<?php error_reporting(0); ?>
+<?php
+$action = $_REQUEST['action'];
+if ($action == "")    /* display the contact form */ {
+?>
 <!doctype html>
 <html lang="zxx" class="theme-light">
 
@@ -239,7 +244,7 @@
                 <p>Reach out to us for course details and timings</p>
             </div>
             <div class="contact-form">
-                <form id="contactForm" action="../assets/php/form-process.php" method="post">
+                <form id="contactForm" action="" method="post">
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
                             <div class="form-group">
@@ -429,3 +434,18 @@
 <!-- contact.html section ending  4:07 -->
 
 </html>
+<?php
+} else                /* send the submitted data */ {
+    $con_name = $_REQUEST['name'];
+    $con_email = $_REQUEST['email'];
+    $con_phone = $_REQUEST['phone_number'];
+    $con_subject = $_REQUEST['msg_subject'];
+    $con_message = $_REQUEST['message'];
+
+    $from = "From: $con_name<$con_email>\r\nReturn-path: $con_email";
+    $subject = "$con_subject - From nationaldiamondtools.in";
+    $con_message = "Name : $con_name,| Phone : $con_phone, | Email : $con_email, Subject : $con_subject | Message : $con_message";
+    mail("sathish8608855@gmail.com", $subject, $con_message, $from);
+    echo "Your Message has been sent!";
+}
+?>

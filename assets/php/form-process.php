@@ -38,6 +38,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Invalid request. Please submit the form first.";
 }
 ?>
-
-
-
