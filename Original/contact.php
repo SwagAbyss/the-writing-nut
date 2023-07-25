@@ -1,3 +1,9 @@
+<?php error_reporting(0); ?>
+<?php
+                                $action=$_REQUEST['action'];
+                                if ($action=="")    /* display the contact form */
+                                    {
+                            ?>
 <!doctype html>
 <html lang="zxx" class="theme-light">
 
@@ -87,8 +93,8 @@
                     <div class="raque-responsive-menu">
                         <div class="logo">
                             <a href="index-2.html">
-                                <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-                                <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
+                                <img src="../assets/img/black-logo.png" class="black-logo" alt="logo">
+                                <img src="../assets/img/logo.png" class="white-logo" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -98,8 +104,8 @@
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index-2.html">
-                            <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-                            <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
+                            <img src="../assets/img/black-logo.png" class="black-logo" alt="logo">
+                            <img src="../assets/img/logo.png" class="white-logo" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav">
@@ -123,8 +129,8 @@
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index-2.html">
-                            <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-                            <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
+                            <img src="../assets/img/black-logo.png" class="black-logo" alt="logo">
+                            <img src="../assets/img/logo.png" class="white-logo" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav">
@@ -169,89 +175,137 @@
     <!-- End Search Box Layout -->
 
     <!-- Start Page Title Area -->
-    <div class="page-title-area item-bg3 jarallax" data-jarallax='{"speed": 0.3}'>
+    <div class="page-title-area item-bg2 jarallax" data-jarallax='{"speed": 0.3}'>
         <div class="container">
             <div class="page-title-content">
                 <ul>
                     <li><a href="index-2.html">Home</a></li>
-                    <li>Gallery</li>
+                    <li>Contact</li>
                 </ul>
-                <h2>Gallery</h2>
+                <h2>Contact Us</h2>
             </div>
         </div>
     </div>
     <!-- End Page Title Area -->
 
-    <!-- Start Gallery Area -->
-    <section class="gallery-area pt-100 pb-70">
+    <!-- Start Contact Info Area -->
+
+    <section class="contact-info-area pt-100 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/1.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/1.jpg">
+                    <div class="contact-info-box mb-30">
+                        <div class="icon">
+                            <i class='bx bx-envelope'></i>
+                        </div>
+
+                        <h3>Email Here</h3>
+                        <p><a href="thewritingnut@gmail.com">thewritingnut@gmail.com</a>
+                        </p>
+                        <p><a href="ramyashree.v@gmail.com">ramyashree.v@gmail.com</a>
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/2.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/2.jpg">
+                    <div class="contact-info-box mb-30">
+                        <div class="icon">
+                            <i class='bx bx-map'></i>
+                        </div>
+
+                        <h3>Location Here</h3>
+                        <p><a href="https://goo.gl/maps/Mii9keyeqXeNH4347" target="_blank">Chennai, India</a></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/3.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/3.jpg">
-                    </div>
-                </div>
+                    <div class="contact-info-box mb-30">
+                        <div class="icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/4.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/4.jpg">
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/5.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/5.jpg">
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/6.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/6.jpg">
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/7.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/7.jpg">
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/8.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/8.jpg">
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-gallery-item mb-30">
-                        <img src="assets/img/gallery/9.jpg" alt="Gallery Image"
-                            data-original="assets/img/gallery/9.jpg">
+                        <h3>Call Here</h3>
+                        <p><a href="tel:9940078344">+91 9940078344</a></p>
+                        <p><a href="tel:8248083597">+91 8248083597</a></p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div id="particles-js-circle-bubble-2"></div>
     </section>
-    <!-- End Gallery Area -->
+    <!-- End Contact Info Area -->
+
+    <!-- Start Contact Area -->
+    <section class="contact-area pb-100">
+        <div class="container">
+            <div class="section-title">
+                <span class="sub-title">Contact Us</span>
+                <h2>Get in touch for more details</h2>
+                <p>Reach out to us for course details and timings</p>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" class="form-control" required
+                                    data-error="Please enter your name" placeholder="Your Name">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control" required
+                                    data-error="Please enter your email" placeholder="Your Email">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <input type="text" name="phone_number" id="phone_number" required
+                                    data-error="Please enter your number" class="form-control" placeholder="Your Phone">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
+                                    data-error="Please enter your subject" placeholder="Your Subject">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+                            <div class="form-group">
+                                <textarea name="message" class="form-control" id="message" cols="30" rows="5" required
+                                    data-error="Write your message" placeholder="Your Message"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+                            <button type="submit" class="default-btn"><i
+                                    class='bx bx-paper-plane icon-arrow before'></i><span class="label">Send
+                                    Message</span><i class="bx bx-paper-plane icon-arrow after"></i></button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="particles-js-circle-bubble-3"></div>
+        <div class="contact-bg-image"><img src="../assets/img/map.png" alt="image"></div>
+    </section>
+    <!-- End Contact Area -->
+
+
 
     <!-- Start Footer Area -->
     <footer class="footer-area footer-style-wrap">
@@ -341,7 +395,7 @@
         <div class="footer-bottom-area footer-bottom-style-wrap">
             <div class="container">
                 <div class="logo">
-                    <a href="index-2.html" class="d-inline-block"><img src="../assets/img/original_img/wnw.png" alt="image"></a>
+                    <a href="index-2.html" class="d-inline-block"><img src="../assets/img/logo.png" alt="image"></a>
                 </div>
                 <p><i class='bx bx-copyright'></i>
                     <script data-cfasync="false"
@@ -389,3 +443,20 @@
 <!-- contact.php section ending  4:07 -->
 
 </html>
+
+<?php
+                                    } 
+                                else                /* send the submitted data */
+                                    {
+                                    $con_name=$_REQUEST['name'];
+                                    $con_email=$_REQUEST['email'];
+                                    $con_phone=$_REQUEST['phone_number'];
+                                    $con_message=$_REQUEST['message'];
+                                        $from="From: $con_name<$con_email>\r\nReturn-path: $con_email";
+                                        $subject="Message sent using your contact form of Stalliongroupindia.com";
+                                        $con_message="Name : $con_name,| Phone : $con_phone, | Email : $con_email, | Message : $con_message";
+                                        mail("sathish8608855@gmail.com", $subject, $con_message, $from);
+                                        echo "Your Message has been sent!";
+                                    
+                                    } 
+                                ?>
