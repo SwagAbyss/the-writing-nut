@@ -1,9 +1,3 @@
-<?php error_reporting(0); ?>
-<?php
-                                $action=$_REQUEST['action'];
-                                if ($action=="")    /* display the contact form */
-                                    {
-                            ?>
 <!doctype html>
 <html lang="zxx" class="theme-light">
 
@@ -113,7 +107,7 @@
                                 <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
                                 <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
                                 <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
-                                <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -138,7 +132,7 @@
                                 <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
                                 <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
                                 <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
-                                <li class="nav-item"><a href="contact.php" class="nav-link">Contact Us </a></i>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us </a></i>
                             </ul>
                         </div>
                     </nav>
@@ -367,7 +361,7 @@
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="course.html">Courses</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -440,23 +434,6 @@
     <script src="../assets/js/main.js"></script>
 </body>
 
-<!-- contact.php section ending  4:07 -->
+<!-- contact.html section ending  4:07 -->
 
 </html>
-
-<?php
-                                    } 
-                                else                /* send the submitted data */
-                                    {
-                                    $con_name=$_REQUEST['name'];
-                                    $con_email=$_REQUEST['email'];
-                                    $con_phone=$_REQUEST['phone_number'];
-                                    $con_message=$_REQUEST['message'];
-                                        $from="From: $con_name<$con_email>\r\nReturn-path: $con_email";
-                                        $subject="Message sent using your contact form of Stalliongroupindia.com";
-                                        $con_message="Name : $con_name,| Phone : $con_phone, | Email : $con_email, | Message : $con_message";
-                                        mail("sathish8608855@gmail.com", $subject, $con_message, $from);
-                                        echo "Your Message has been sent!";
-                                    
-                                    } 
-                                ?>
