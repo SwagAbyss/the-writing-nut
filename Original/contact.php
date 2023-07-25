@@ -35,9 +35,9 @@ if ($action == "")    /* display the contact form */ {
     <link rel="stylesheet" href="../assets/css/dark.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
 
-    <title>Raque - Education Courses & Online Training HTML Template</title>
+    <title>WritingNut - Education Courses & Online Training HTML Template</title>
 
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="../assets/img/original_img/logo.jpeg">
 </head>
 
 <body>
@@ -87,9 +87,9 @@ if ($action == "")    /* display the contact form */ {
 
         <!-- Start Navbar Area -->
         <div class="navbar-area navbar-style-three">
-            <div class="raque-responsive-nav">
+            <div class="WritingNut-responsive-nav">
                 <div class="container">
-                    <div class="raque-responsive-menu">
+                    <div class="WritingNut-responsive-menu">
                         <div class="logo">
                             <a href="index-2.html">
                                 <img src="../assets/img/black-logo.png" class="black-logo" alt="logo">
@@ -99,7 +99,7 @@ if ($action == "")    /* display the contact form */ {
                     </div>
                 </div>
             </div>
-            <div class="raque-nav">
+            <div class="WritingNut-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index-2.html">
@@ -124,7 +124,7 @@ if ($action == "")    /* display the contact form */ {
 
         <!-- Start Sticky Navbar Area -->
         <div class="navbar-area navbar-style-three header-sticky">
-            <div class="raque-nav">
+            <div class="WritingNut-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index-2.html">

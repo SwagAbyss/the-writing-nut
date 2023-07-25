@@ -1,5 +1,5 @@
 /*==============================================================*/
-// Raque Contact Form  JS
+// WritingNut Contact Form  JS
 /*==============================================================*/
 (function ($) {
     "use strict"; // Start of use strict

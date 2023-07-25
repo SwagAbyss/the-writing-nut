@@ -163,111 +163,111 @@ Default CSS
   color: #ffffff;
 }
 
-.theme-dark .raque-nav {
+.theme-dark .WritingNut-nav {
   background-color: #000000;
 }
 
-.theme-dark .raque-nav.bg-transparent {
+.theme-dark .WritingNut-nav.bg-transparent {
   background-color: transparent;
 }
 
-.theme-dark .raque-nav .navbar {
+.theme-dark .WritingNut-nav .navbar {
   background-color: #000000;
 }
 
-.theme-dark .raque-nav .navbar .navbar-nav .nav-item a {
+.theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item a {
   color: #ffffff;
 }
 
-.theme-dark .raque-nav .navbar .navbar-nav .nav-item a:hover, .theme-dark .raque-nav .navbar .navbar-nav .nav-item a:focus, .theme-dark .raque-nav .navbar .navbar-nav .nav-item a.active {
+.theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item a:hover, .theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item a:focus, .theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item a.active {
   color: #3B30D4;
 }
 
-.theme-dark .raque-nav .navbar .navbar-nav .nav-item:hover a, .theme-dark .raque-nav .navbar .navbar-nav .nav-item.active a {
+.theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item:hover a, .theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item.active a {
   color: #3B30D4;
 }
 
-.theme-dark .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   color: #4a6f8a;
 }
 
-.theme-dark .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #3B30D4;
 }
 
-.theme-dark .raque-nav .navbar .others-option .language-switcher .dropdown-toggle img {
+.theme-dark .WritingNut-nav .navbar .others-option .language-switcher .dropdown-toggle img {
   border: 3px solid #ffffff;
 }
 
-.theme-dark .raque-nav .navbar .others-option .language-switcher .dropdown-toggle span {
+.theme-dark .WritingNut-nav .navbar .others-option .language-switcher .dropdown-toggle span {
   color: #ffffff;
 }
 
-.theme-dark .raque-nav .navbar .others-option .language-switcher .dropdown-toggle span i {
+.theme-dark .WritingNut-nav .navbar .others-option .language-switcher .dropdown-toggle span i {
   color: #ffffff;
 }
 
-.theme-dark .raque-nav .navbar .others-option .cart-wrapper-btn {
+.theme-dark .WritingNut-nav .navbar .others-option .cart-wrapper-btn {
   color: #ffffff;
 }
 
-.theme-dark .raque-nav .navbar .others-option .cart-wrapper-btn:hover {
+.theme-dark .WritingNut-nav .navbar .others-option .cart-wrapper-btn:hover {
   color: #3B30D4;
 }
 
-.theme-dark .raque-nav .navbar .others-option .search-box {
+.theme-dark .WritingNut-nav .navbar .others-option .search-box {
   color: #ffffff;
 }
 
-.theme-dark .raque-nav .navbar .others-option .search-box:hover {
+.theme-dark .WritingNut-nav .navbar .others-option .search-box:hover {
   color: #3B30D4;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item a {
   color: #ffffff;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a:hover, .theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a:focus, .theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item a.active {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item a:hover, .theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item a:focus, .theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item a.active {
   color: #3B30D4;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item:hover a, .theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item.active a {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item:hover a, .theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item.active a {
   color: #3B30D4;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   color: #4a6f8a;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #3B30D4;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .others-option .language-switcher .dropdown-toggle img {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .others-option .language-switcher .dropdown-toggle img {
   border: 3px solid #ffffff;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .others-option .language-switcher .dropdown-toggle span {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .others-option .language-switcher .dropdown-toggle span {
   color: #ffffff;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .others-option .language-switcher .dropdown-toggle span i {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .others-option .language-switcher .dropdown-toggle span i {
   color: #ffffff;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .others-option .cart-wrapper-btn {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .others-option .cart-wrapper-btn {
   color: #ffffff;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .others-option .cart-wrapper-btn:hover {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .others-option .cart-wrapper-btn:hover {
   color: #3B30D4;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .others-option .search-box {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .others-option .search-box {
   color: #ffffff;
 }
 
-.theme-dark .navbar-style-two.is-sticky .raque-nav .navbar .others-option .search-box:hover {
+.theme-dark .navbar-style-two.is-sticky .WritingNut-nav .navbar .others-option .search-box:hover {
   color: #3B30D4;
 }
 
@@ -1381,7 +1381,7 @@ Default CSS
   color: transparent;
 }
 
-.theme-dark .widget-area .widget_raque_posts_thumb .item .info time {
+.theme-dark .widget-area .widget_WritingNut_posts_thumb .item .info time {
   color: #ffffff;
 }
 
@@ -1506,11 +1506,11 @@ Default CSS
   color: #3B30D4;
 }
 
-.theme-dark .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-raque-profile a {
+.theme-dark .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-WritingNut-profile a {
   color: #ffffff;
 }
 
-.theme-dark .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-raque-profile a:hover, .theme-dark .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-raque-profile a:focus {
+.theme-dark .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-WritingNut-profile a:hover, .theme-dark .courses-details-desc .courses-author .author-profile .author-profile-title .author-profile-WritingNut-profile a:focus {
   background-color: #3B30D4;
   color: #ffffff;
 }
@@ -2089,16 +2089,16 @@ Default CSS
   background-color: #0e0e0e;
 }
 
-.theme-dark .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-raque-profile a {
+.theme-dark .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-WritingNut-profile a {
   color: #ffffff;
 }
 
-.theme-dark .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-raque-profile a:hover, .theme-dark .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-raque-profile a:focus {
+.theme-dark .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-WritingNut-profile a:hover, .theme-dark .blog-details-desc .article-author .author-profile .author-profile-title .author-profile-WritingNut-profile a:focus {
   background-color: #3B30D4;
   color: #ffffff;
 }
 
-.theme-dark .raque-post-navigation {
+.theme-dark .WritingNut-post-navigation {
   border-top: 1px solid #0e0e0e;
   border-bottom: 1px solid #0e0e0e;
 }
@@ -2630,10 +2630,10 @@ Default CSS
   .theme-dark .navbar-area.is-sticky {
     background-color: #000000 !important;
   }
-  .theme-dark .raque-responsive-nav .mean-container a.meanmenu-reveal {
+  .theme-dark .WritingNut-responsive-nav .mean-container a.meanmenu-reveal {
     color: #ffffff;
   }
-  .theme-dark .raque-responsive-nav .mean-container a.meanmenu-reveal span {
+  .theme-dark .WritingNut-responsive-nav .mean-container a.meanmenu-reveal span {
     background-color: #ffffff;
   }
 }
@@ -2645,31 +2645,31 @@ Default CSS
   .theme-dark .navbar-area.is-sticky {
     background-color: #000000 !important;
   }
-  .theme-dark .raque-responsive-nav .mean-container a.meanmenu-reveal {
+  .theme-dark .WritingNut-responsive-nav .mean-container a.meanmenu-reveal {
     color: #ffffff;
   }
-  .theme-dark .raque-responsive-nav .mean-container a.meanmenu-reveal span {
+  .theme-dark .WritingNut-responsive-nav .mean-container a.meanmenu-reveal span {
     background-color: #ffffff;
   }
-  .theme-dark .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-toggle img {
+  .theme-dark .WritingNut-responsive-nav .WritingNut-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-toggle img {
     border: 3px solid #ffffff;
   }
-  .theme-dark .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-toggle span {
+  .theme-dark .WritingNut-responsive-nav .WritingNut-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-toggle span {
     color: #ffffff;
   }
-  .theme-dark .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-toggle span i {
+  .theme-dark .WritingNut-responsive-nav .WritingNut-responsive-menu.mean-container .mean-nav .others-option .language-switcher .dropdown-toggle span i {
     color: #ffffff;
   }
-  .theme-dark .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .cart-wrapper-btn {
+  .theme-dark .WritingNut-responsive-nav .WritingNut-responsive-menu.mean-container .mean-nav .others-option .cart-wrapper-btn {
     color: #ffffff;
   }
-  .theme-dark .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .cart-wrapper-btn:hover {
+  .theme-dark .WritingNut-responsive-nav .WritingNut-responsive-menu.mean-container .mean-nav .others-option .cart-wrapper-btn:hover {
     color: #3B30D4;
   }
-  .theme-dark .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .search-box {
+  .theme-dark .WritingNut-responsive-nav .WritingNut-responsive-menu.mean-container .mean-nav .others-option .search-box {
     color: #ffffff;
   }
-  .theme-dark .raque-responsive-nav .raque-responsive-menu.mean-container .mean-nav .others-option .search-box:hover {
+  .theme-dark .WritingNut-responsive-nav .WritingNut-responsive-menu.mean-container .mean-nav .others-option .search-box:hover {
     color: #3B30D4;
   }
 }
