@@ -26,7 +26,7 @@
 
         $.ajax({
             type: "POST",
-            url: "assets/php/process_form.php",
+            url: "assets/php/form-process.php",
             data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
             success : function(statustxt){
                 if (statustxt == "success"){
@@ -35,6 +35,10 @@
                     formError();
                     submitMSG(false,statustxt);
                 }
+            },
+            error: function () {
+                formError();
+                submitMSG(false, "Failed to send the request. Please try again later.");
             }
         });
     }
