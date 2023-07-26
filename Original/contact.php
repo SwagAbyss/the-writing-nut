@@ -1,8 +1,3 @@
-<?php error_reporting(0); ?>
-<?php
-$action = $_REQUEST['action'];
-if ($action == "")    /* display the contact form */ {
-?>
 <!doctype html>
 <html lang="zxx" class="theme-light">
 
@@ -70,8 +65,7 @@ if ($action == "")    /* display the contact form */ {
                             <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
                             <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
                             <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i
-                                    class='bx bxl-instagram'></i></a>
+                            <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i class='bx bxl-instagram'></i></a>
                         </div>
                     </div>
 
@@ -234,49 +228,49 @@ if ($action == "")    /* display the contact form */ {
         <div id="particles-js-circle-bubble-2"></div>
     </section>
     <!-- End Contact Info Area -->
-
     <!-- Start Contact Area -->
     <section class="contact-area pb-100">
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">Contact Us</span>
-                <h2>Get in touch for more details</h2>
-                <p>Reach out to us for course details and timings</p>
+                <h2>Drop us Message for any Query</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
+
             <div class="contact-form">
-                <form id="contactForm" action="" method="post">
+                <form id="contactForm" action="../assets/php/form-process.php" method="post">
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
                             <div class="form-group">
-                                <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name">
+                                <input type="text" name="con_name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
 
                         <div class="col-lg-6 col-md-12">
                             <div class="form-group">
-                                <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Your Email">
+                                <input type="email" name="con_email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Your Email">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
 
                         <div class="col-lg-6 col-md-12">
                             <div class="form-group">
-                                <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Your Phone">
+                                <input type="text" name="con_phone" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Your Phone">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
 
                         <div class="col-lg-6 col-md-12">
                             <div class="form-group">
-                                <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject">
+                                <input type="text" name="con_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
 
                         <div class="col-lg-12 col-md-12">
                             <div class="form-group">
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="Write your message" placeholder="Your Message"></textarea>
+                                <textarea name="con_message" class="form-control" id="message" cols="30" rows="5" required data-error="Write your message" placeholder="Your Message"></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
@@ -285,6 +279,7 @@ if ($action == "")    /* display the contact form */ {
                             <button type="submit" class="default-btn"><i class='bx bx-paper-plane icon-arrow before'></i><span class="label">Send Message</span><i class="bx bx-paper-plane icon-arrow after"></i></button>
                             <div id="msgSubmit" class="h3 text-center hidden"></div>
                             <div class="clearfix"></div>
+
                         </div>
                     </div>
                 </form>
@@ -292,7 +287,7 @@ if ($action == "")    /* display the contact form */ {
         </div>
 
         <div id="particles-js-circle-bubble-3"></div>
-        <div class="contact-bg-image"><img src="../assets/img/map.png" alt="image"></div>
+        <div class="contact-bg-image"><img src="assets/img/map.png" alt="image"></div>
     </section>
     <!-- End Contact Area -->
 
@@ -317,16 +312,14 @@ if ($action == "")    /* display the contact form */ {
                             </li>
                             <li>
                                 <i class='bx bx-envelope'></i>
-                                <a href="#"><span class="__cf_email__"
-                                        data-cfemail="0e666b6262614e7c6f7f7b6b206d6163">thewritingnut@gmail.com</span></a>
+                                <a href="#"><span class="__cf_email__" data-cfemail="0e666b6262614e7c6f7f7b6b206d6163">thewritingnut@gmail.com</span></a>
                             </li>
                         </ul>
 
                         <ul class="social-link">
                             <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
                             <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-                            <li><a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" class="d-block"
-                                    target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
                             <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
                             <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-pinterest-alt'></i></a>
                             </li>
@@ -372,8 +365,7 @@ if ($action == "")    /* display the contact form */ {
 
                             <form class="newsletter-form" data-bs-toggle="validator">
                                 <label>Your e-mail address:</label>
-                                <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL"
-                                    required autocomplete="off">
+                                <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
                                 <button type="submit">Subscribe</button>
                                 <div id="validator-newsletter" class="form-result"></div>
                             </form>
@@ -389,9 +381,10 @@ if ($action == "")    /* display the contact form */ {
                     <a href="index-2.html" class="d-inline-block"><img src="../assets/img/logo.png" alt="image"></a>
                 </div>
                 <p><i class='bx bx-copyright'></i>
-                    <script data-cfasync="false"
-                        src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                    <script>document.write(new Date().getFullYear())</script> <a href="index-2.html" target="_blank">The
+                    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> <a href="index-2.html" target="_blank">The
                         Writing Nut</a> designed by <a href="https://toolfe.com target=" _blank">Toolfe</a> | All rights
                     reserved.
                 </p>
@@ -427,25 +420,9 @@ if ($action == "")    /* display the contact form */ {
     <script src="../assets/js/jquery.magnific-popup.min.js"></script>
     <script src="../assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="../assets/js/form-validator.min.js"></script>
-    <script src="../assets/js/contact-form-script.js"></script>
     <script src="../assets/js/main.js"></script>
 </body>
 
 <!-- contact.html section ending  4:07 -->
 
 </html>
-<?php
-} else                /* send the submitted data */ {
-    $con_name = $_REQUEST['name'];
-    $con_email = $_REQUEST['email'];
-    $con_phone = $_REQUEST['phone_number'];
-    $con_subject = $_REQUEST['msg_subject'];
-    $con_message = $_REQUEST['message'];
-
-    $from = "From: $con_name<$con_email>\r\nReturn-path: $con_email";
-    $subject = "$con_subject - From nationaldiamondtools.in";
-    $con_message = "Name : $con_name,| Phone : $con_phone, | Email : $con_email, Subject : $con_subject | Message : $con_message";
-    mail("sathish8608855@gmail.com", $subject, $con_message, $from);
-    echo "Your Message has been sent!";
-}
-?>
