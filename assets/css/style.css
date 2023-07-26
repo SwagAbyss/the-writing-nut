@@ -4318,11 +4318,11 @@ Become Instructor & Partner CSS
 }
 
 .become-instructor-partner-image.bg-image1 {
-  background-image: url(../img/become-instructor.jpg);
+  background-image: url(..//img/original_img/about/about1.webp);
 }
 
 .become-instructor-partner-image.bg-image2 {
-  background-image: url(../img/become-partner.jpg);
+  background-image: url(..//img/original_img/about/about2.webp);
 }
 
 .become-instructor-partner-image img {
