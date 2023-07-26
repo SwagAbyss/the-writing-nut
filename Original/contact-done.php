@@ -86,7 +86,7 @@
                 <div class="container">
                     <div class="raque-responsive-menu">
                         <div class="logo">
-                            <a href="index-2.html">
+                            <a href="home.html">
                                 <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                                 <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                             </a>
@@ -97,7 +97,7 @@
             <div class="raque-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index-2.html">
+                        <a class="navbar-brand" href="home.html">
                             <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                             <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                         </a>
@@ -122,7 +122,7 @@
             <div class="raque-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index-2.html">
+                        <a class="navbar-brand" href="home.html">
                             <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                             <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                         </a>
