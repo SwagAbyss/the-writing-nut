@@ -3054,7 +3054,7 @@ Boxes CSS
 
 .single-boxes-item.bg-image {
   background-color: #3B30D4;
-  background-image: url(../img/mission-bg.jpg);
+  background-image: url(../img/original_img/about/mission.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4318,11 +4318,11 @@ Become Instructor & Partner CSS
 }
 
 .become-instructor-partner-image.bg-image1 {
-  background-image: url(../img/become-instructor.jpg);
+  background-image: url(..//img/original_img/about/about1.webp);
 }
 
 .become-instructor-partner-image.bg-image2 {
-  background-image: url(../img/become-partner.jpg);
+  background-image: url(..//img/original_img/about/about2.webp);
 }
 
 .become-instructor-partner-image img {
@@ -6157,7 +6157,7 @@ Courses Details CSS
   position: relative;
   border-radius: 5px;
   z-index: 1;
-  background-image: url(../img/mission-bg.jpg);
+  background-image: url(../img/original_img/about/mission.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7009,7 +7009,7 @@ Mission CSS
 .mission-area {
   position: relative;
   z-index: 1;
-  background-image: url(../img/mission-bg.jpg);
+  background-image: url(../img/original_img/about/mission.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11188,7 +11188,7 @@ Widget Sidebar CSS
   border-radius: 5px;
   height: 400px;
   text-align: center;
-  background-image: url(../img/mission-bg.jpg);
+  background-image: url(../img/original_img/about/mission.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
