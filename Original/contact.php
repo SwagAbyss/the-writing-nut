@@ -309,7 +309,7 @@ if ($action == "")    /* display the contact form */ {
                         <ul class="contact-us-link">
                             <li>
                                 <i class='bx bx-map'></i>
-                                <a href="#" target="_blank">2750 Quadra Street Victoria Road, New York, USA</a>
+                                <a href="#" target="_blank">Chennai, Tamilnadu, India</a>
                             </li>
                             <li>
                                 <i class='bx bx-phone-call'></i>
