@@ -269,7 +269,8 @@
 
                     <div>
                         <h3>Mission</h3>
-                        <p>"The Writing Nut": Freelance writing, resume building, and exemplary phonetics training for young learners, achieving visible improvements in just 2 weeks. </p>
+                        <p>"The Writing Nut": Freelance writing, resume building, and exemplary phonetics training for
+                            young learners, achieving visible improvements in just 2 weeks. </p>
                         <p>Additionally, we conduct curated workshops upon request to further enhance language skills
                             and overall growth. Our mission is to empower individuals through effective communication
                             and self-expression.</p>
@@ -506,12 +507,14 @@
                         <div class="newsletter-box">
                             <p>To get the latest news and latest updates from us.</p>
 
-                            <form class="newsletter-form" data-bs-toggle="validator">
+                            <form id="contact-form" action="subscribe-done.php" method="POST"
+                                enctype="multipart/form-data">
                                 <label>Your e-mail address:</label>
-                                <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL"
-                                    required autocomplete="off">
+                                <input type="email" class="input-newsletter" placeholder="Enter your email"
+                                    name="sub_email" required autocomplete="off">
                                 <button type="submit">Subscribe</button>
-                                <div id="validator-newsletter" class="form-result"></div>
+
+
                             </form>
                         </div>
                     </div>
