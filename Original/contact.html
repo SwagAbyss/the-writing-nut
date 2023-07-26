@@ -238,7 +238,7 @@
             </div>
 
             <div class="contact-form">
-                <form id="contactForm" action="../assets/php/form-process.php" method="post">
+                <form id="contactForm" action="contact-done.php" method="post">
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
                             <div class="form-group">
@@ -363,11 +363,13 @@
                         <div class="newsletter-box">
                             <p>To get the latest news and latest updates from us.</p>
 
-                            <form class="newsletter-form" data-bs-toggle="validator">
+                            <form id="contact-form" action="subscribe-done.php" method="POST" enctype="multipart/form-data">
                                 <label>Your e-mail address:</label>
-                                <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+                                <input type="email" class="input-newsletter" placeholder="Enter your email" name="sub_email"
+                                    required autocomplete="off">
                                 <button type="submit">Subscribe</button>
-                                <div id="validator-newsletter" class="form-result"></div>
+
+
                             </form>
                         </div>
                     </div>
