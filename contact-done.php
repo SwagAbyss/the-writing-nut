@@ -86,7 +86,7 @@
                 <div class="container">
                     <div class="raque-responsive-menu">
                         <div class="logo">
-                            <a href="home.html">
+                            <a href="index.html">
                                 <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                                 <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                             </a>
@@ -97,13 +97,13 @@
             <div class="raque-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="home.html">
+                        <a class="navbar-brand" href="index.html">
                             <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                             <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="home.html" class="nav-link">Home </a></i>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></i>
                                 <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
                                 <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
                                 <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
@@ -122,13 +122,13 @@
             <div class="raque-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="home.html">
+                        <a class="navbar-brand" href="index.html">
                             <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                             <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="home.html" class="nav-link">Home </a></i>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></i>
                                 <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
                                 <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
                                 <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
@@ -172,7 +172,7 @@ mail("sathish8608855@gmail.com,jeffrinjen10@gmail.com", $subject, $con_message, 
                     <h1>Your Message Sent</h1>
                     <h3>Thanks for your response</h3>
                     <p>Our team will get in touch with you as soon as possible.</p>
-                    <a href="home.html" class="default-btn"><i class='bx bx-home-circle icon-arrow before'></i><span class="label">Back Home</span><i class="bx bx-home-circle icon-arrow after"></i></a>
+                    <a href="index.html" class="default-btn"><i class='bx bx-home-circle icon-arrow before'></i><span class="label">Back Home</span><i class="bx bx-home-circle icon-arrow after"></i></a>
                 </div>
             </div>
         </div>
@@ -185,13 +185,13 @@ mail("sathish8608855@gmail.com,jeffrinjen10@gmail.com", $subject, $con_message, 
         <div class="footer-bottom-area footer-bottom-style-wrap">
             <div class="container">
                 <div class="logo">
-                    <a href="home.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png"
+                    <a href="index.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png"
                             alt="image"></a>
                 </div>
                 <p><i class='bx bx-copyright'></i>
                     <script data-cfasync="false"
                         src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                    <script>document.write(new Date().getFullYear())</script> <a href="home.html" target="_blank">The
+                    <script>document.write(new Date().getFullYear())</script> <a href="index.html" target="_blank">The
                         Writing Nut</a> designed by <a href="https://toolfe.com target=" _blank">Toolfe</a> | All rights
                     reserved.
                 </p>
