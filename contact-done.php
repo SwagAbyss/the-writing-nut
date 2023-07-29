@@ -9,30 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Revolution Slider CSS -->
-    <link rel="stylesheet" href="../assets/revolution/css/settings.css">
-    <link rel="stylesheet" href="../assets/revolution/css/layers.css">
-    <link rel="stylesheet" href="../assets/revolution/css/navigation.css">
+    <link rel="stylesheet" href="assets/revolution/css/settings.css">
+    <link rel="stylesheet" href="assets/revolution/css/layers.css">
+    <link rel="stylesheet" href="assets/revolution/css/navigation.css">
 
     <!-- Links of CSS files -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/boxicons.min.css">
-    <link rel="stylesheet" href="../assets/css/flaticon.css">
-    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../assets/css/odometer.min.css">
-    <link rel="stylesheet" href="../assets/css/meanmenu.min.css">
-    <link rel="stylesheet" href="../assets/css/animate.min.css">
-    <link rel="stylesheet" href="../assets/css/nice-select.min.css">
-    <link rel="stylesheet" href="../assets/css/viewer.min.css">
-    <link rel="stylesheet" href="../assets/css/slick.min.css">
-    <link rel="stylesheet" href="../assets/css/magnific-popup.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/dark.css">
-    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="assets/css/viewer.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
     <title>Raque - Education Courses & Online Training HTML Template</title>
 
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
 </head>
 
 <body>
@@ -92,8 +92,8 @@
                                 <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
 =======
                             <a href="home.html">
-                                <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-                                <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
+                                <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
+                                <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
 >>>>>>> parent of a9973df (commit):Original/contact-done.php
                             </a>
                         </div>
@@ -109,8 +109,8 @@
                             <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
 =======
                         <a class="navbar-brand" href="home.html">
-                            <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-                            <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
+                            <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
+                            <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
 >>>>>>> parent of a9973df (commit):Original/contact-done.php
                         </a>
                         <div class="collapse navbar-collapse mean-menu">
@@ -140,8 +140,8 @@
                             <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
 =======
                         <a class="navbar-brand" href="home.html">
-                            <img src="../assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-                            <img src="../assets/img/original_img/wnw.png" class="white-logo" alt="logo">
+                            <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
+                            <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
 >>>>>>> parent of a9973df (commit):Original/contact-done.php
                         </a>
                         <div class="collapse navbar-collapse">
@@ -206,7 +206,7 @@ mail("sathish8608855@gmail.com,jeffrinjen10@gmail.com", $subject, $con_message, 
 <<<<<<< HEAD:contact-done.php
                     <a href="index.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png"
 =======
-                    <a href="home.html" class="d-inline-block"><img src="../assets/img/original_img/wnw.png"
+                    <a href="home.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png"
 >>>>>>> parent of a9973df (commit):Original/contact-done.php
                             alt="image"></a>
                 </div>
@@ -234,35 +234,35 @@ mail("sathish8608855@gmail.com,jeffrinjen10@gmail.com", $subject, $con_message, 
     <!-- Dark version -->
 
     <!-- Links of JS files -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/mixitup.min.js"></script>
-    <script src="../assets/js/parallax.min.js"></script>
-    <script src="../assets/js/jquery.appear.min.js"></script>
-    <script src="../assets/js/odometer.min.js"></script>
-    <script src="../assets/js/particles.min.js"></script>
-    <script src="../assets/js/meanmenu.min.js"></script>
-    <script src="../assets/js/jquery.nice-select.min.js"></script>
-    <script src="../assets/js/viewer.min.js"></script>
-    <script src="../assets/js/slick.min.js"></script>
-    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="../assets/js/form-validator.min.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/meanmenu.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/viewer.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- Slider Revolution core JavaScript files -->
-    <script src="../assets/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="../assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="../assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="../assets/js/rev-slider-custom.js"></script>
+    <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="assets/js/rev-slider-custom.js"></script>
 </body>
 </html>
