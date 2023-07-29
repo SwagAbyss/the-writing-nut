@@ -192,8 +192,7 @@ mail("sathish8608855@gmail.com,jeffrinjen10@gmail.com", $subject, $con_message, 
                     <script data-cfasync="false"
                         src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                     <script>document.write(new Date().getFullYear())</script> <a href="index.html" target="_blank">The
-                        Writing Nut</a> designed by <a href="https://toolfe.com target=" _blank">Toolfe</a> | All rights
-                    reserved.
+                        Writing Nut</a> All rights reserved | Designed & Developed by  <a href="https://toolfe.com target=" _blank">Toolfe</a>
                 </p>
             </div>
         </div>
