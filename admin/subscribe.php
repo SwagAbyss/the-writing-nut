@@ -17,7 +17,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/original_img/logo.jpeg" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
