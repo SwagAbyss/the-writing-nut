@@ -57,7 +57,7 @@
                     <p class="text-center small">Enter your username & password to login</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate action="log_login.php" method="POST">
+                  <form class="row g-3 needs-validation" action="log_login.php" method="POST">
                     <!-- toolfe -->
                     <?php if (isset($_GET['error'])) { ?>
                       <p class="error">
