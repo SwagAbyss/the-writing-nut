@@ -164,7 +164,7 @@
     <!-- End Error 404 Area -->
 
     <?php
-    include_once 'admin/config.php';
+    include_once './config.php';
     if (isset($_POST['submit'])) {
         $date = date("d-m-Y");
         $time = date("h:i");
