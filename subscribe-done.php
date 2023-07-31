@@ -163,7 +163,25 @@
             </div>
         </div>
         <!-- End Error 404 Area -->
-
+        <?php
+    include_once 'admin/config.php';     
+    if(isset($_POST['submit'])) 
+    {    
+        $date = date("d-m-Y");
+        $time = date("h:i");
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+    $sql = "INSERT INTO toolfe_contact (date,time,email)
+         VALUES ('$date','$time','$email')";
+         if (mysqli_query($conn, $sql)) {
+            // echo "New record has been added successfully !";
+    } else {
+            echo "Error: " . $sql . ":-" . mysqli_error($conn);
+         }
+         mysqli_close($conn);
+    
+        }
+    ?>
      
     <!-- Start Footer Area -->
     <footer class="footer-area footer-style-wrap">

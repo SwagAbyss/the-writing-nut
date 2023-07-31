@@ -144,20 +144,28 @@
     </header>
     <!-- End Header Area -->
     <?php
-$con_name=$_REQUEST['con_name'];
-$con_email=$_REQUEST['con_email'];
-$con_phone=$_REQUEST['con_phone'];
-$con_message=$_REQUEST['con_message'];
-$con_subject=$_REQUEST['con_subject'];
-
-
-$from="From: $con_name<$con_email>\r\nReturn-path: $con_email";
-$subject="Message sent using your contact form of Writing Nut";
-$con_message="Name : $con_name,| Phone : $con_phone, | Email : $con_email,|Subject: $con_subject,| Message : $con_message";
-mail("sathish8608855@gmail.com,jeffrinjen10@gmail.com", $subject, $con_message, $from);
-
-?>
-
+    include_once 'admin/config.php';     
+    if(isset($_POST['submit'])) 
+    {    
+        $date = date("d-m-Y");
+        $time = date("h:i");
+        $name = $_POST['name'];
+         $email = $_POST['email'];
+         $phone = $_POST['phone'];
+         $subject = $_POST['subject'];
+         $message = $_POST['message'];
+    $sql = "INSERT INTO toolfe_contact (date,time,name,email,phone,subject,message)
+         VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
+         if (mysqli_query($conn, $sql)) {
+            // echo "New record has been added successfully !";
+    } else {
+            echo "Error: " . $sql . ":-" . mysqli_error($conn);
+         }
+         mysqli_close($conn);
+    
+        }
+    ?>
+    <!--End Contact us page php -->
 
         <!-- Start Error 404 Area -->
         <div class="error-404-area">
