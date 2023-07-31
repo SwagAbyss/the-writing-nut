@@ -167,10 +167,9 @@
     if (isset($_POST['submit'])) {
         $date = date("d-m-Y");
         $time = date("h:i");
-        $name = $_POST['name'];
-        $email = $_POST['email'];
+        $email = $_POST['sub_email'];
         $sql = "INSERT INTO toolfe_contact (date,time,email)
-         VALUES ('$date','$time','$email')";
+        VALUES ('$date','$time','$email')";
         if (mysqli_query($conn, $sql)) {
             // echo "New record has been added successfully !";
         } else {
