@@ -52,7 +52,7 @@ $base_url = "http://www.thewritingnut.in/admin/";
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
                   <img src="../assets/img/original_img/logo.jpeg" alt="">
-                  <span class="d-none d-lg-block">Writing Nut</span>
+                  <span class="d-none d-lg-block">The Writing Nut</span>
                 </a>
               </div>
               <!-- End Logo -->
