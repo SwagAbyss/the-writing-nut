@@ -42,7 +42,17 @@
 
 <body>
 
-<?php
+
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="shadow"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+    <?php
         include_once 'admin/config.php';
         if (isset($_POST['submit'])) {
             $date = date("d-m-Y");
@@ -62,16 +72,6 @@
             mysqli_close($conn);
         }
         ?>
-
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="loader">
-            <div class="shadow"></div>
-            <div class="box"></div>
-        </div>
-    </div>
-    <!-- End Preloader -->
-
     <!-- Start Header Area -->
     <header class="header-area p-relative">
 
