@@ -31,7 +31,7 @@
 
   <style>
     <?php
-    include 'assets/css/style.css'
+    include './assets/css/style.css'
     ?>
   </style>
 </head>
