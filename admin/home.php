@@ -18,7 +18,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
     <!-- Favicons -->
     <link href="../assets/img/original_img/logo.jpeg" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="../assets/img/original_img/logo.jpeg" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -44,8 +44,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <header id="header" class="header fixed-top d-flex align-items-center">
 
       <div class="d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.png" alt="">
+        <a href="./index.php" class="logo d-flex align-items-center">
+          <img src="../assets/img/original_img/logo.jpeg" alt="">
           <span class="d-none d-lg-block">The Writing Nut</span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -81,7 +81,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
               </li>
 
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="index.html">
+                <a class="dropdown-item d-flex align-items-center" href="../index.html">
                   <i class="bi bi-person"></i>
                   <span>Vist Website</span>
                 </a>
@@ -111,13 +111,13 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
       <ul class="sidebar-nav" id="sidebar-nav">
 
         <li class="nav-item">
-          <a class="nav-link collapsed" href="index.html">
+          <a class="nav-link collapsed" href="./subscribe.php">
             <i class="bi bi-grid"></i>
             <span>Dashboard</span>
           </a>
         </li><!-- End Dashboard Nav -->
         <li class="nav-item">
-          <a class="nav-link collapsed" href="subscribe.html">
+          <a class="nav-link collapsed" href="./subscribe.php">
             <i class="bi bi-journal-text"></i>
             <span>Subscribe</span>
           </a>
