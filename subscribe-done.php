@@ -162,13 +162,14 @@
         </div>
     </div>
     <!-- End Error 404 Area -->
+
     <?php
     include_once 'admin/config.php';
     if (isset($_POST['submit'])) {
         $date = date("d-m-Y");
         $time = date("h:i");
         $email = $_POST['sub_email'];
-        $sql = "INSERT INTO toolfe_contact (date,time,email)
+        $sql = "INSERT INTO writingnut_sub (date,time,email)
         VALUES ('$date','$time','$email')";
         if (mysqli_query($conn, $sql)) {
             // echo "New record has been added successfully !";
