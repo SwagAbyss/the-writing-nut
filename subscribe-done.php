@@ -171,12 +171,13 @@
         $email = $_POST['sub_email'];
         $sql = "INSERT INTO writingnut_sub (date,time,email)
         VALUES ('$date','$time','$email')";
-        if (mysqli_query($conn, $sql)) {
-            // echo "New record has been added successfully !";
+        if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
         } else {
-            echo "Error: " . $sql . ":-" . mysqli_error($conn);
+            echo "Error: " . $sql . "<br>" . $conn->error;
         }
-        mysqli_close($conn);
+
+        $conn->close();
     }
     ?>
 
