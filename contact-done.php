@@ -34,8 +34,7 @@
         <link rel="stylesheet" href="assets/css/dark.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
 
-        <title>Raque - Education Courses & Online Training HTML Template</title>
-
+        <title>The Writing Nut</title>
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
     </head>
 
