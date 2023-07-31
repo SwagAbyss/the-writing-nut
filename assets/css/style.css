@@ -9856,12 +9856,12 @@ Page Title CSS
   display: inline-block;
   margin-right: 25px;
   position: relative;
-  color: #ffffff;
+  color: #252525;
 }
 
 .page-title-content ul li a {
   display: inline-block;
-  color: #ffffff;
+  color: #252525;
   opacity: .85;
 }
 
@@ -9873,7 +9873,7 @@ Page Title CSS
 
 .page-title-content ul li::before {
   content: "\ea50";
-  color: #ffffff;
+  color: #252525;
   position: absolute;
   right: -25px;
   top: -4px;
@@ -9894,7 +9894,7 @@ Page Title CSS
 }
 
 .page-title-content h2 {
-  color: #ffffff;
+  color: #252525;
   margin-bottom: 0;
   font-size: 42px;
   font-weight: 700;
