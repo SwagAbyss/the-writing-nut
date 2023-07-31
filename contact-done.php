@@ -145,20 +145,27 @@
     <?php
     include_once 'admin/config.php';
     if (isset($_POST['submit'])) {
-        $date = date("d-m-Y");
-        $time = date("h:i");
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
-        $sql = "INSERT INTO writingnut_contact (date,time,name,email,phone,subject,message)
+        try {
+            $date = date("d-m-Y");
+            $time = date("h:i");
+            $name = mysqli_real_escape_string($conn, htmlspecialchars($_POST['con_name']));
+            $email = mysqli_real_escape_string($conn, htmlspecialchars($_POST['con_email']));
+            $phone = mysqli_real_escape_string($conn, htmlspecialchars($_POST['con_phone']));
+            $subject = mysqli_real_escape_string($conn, htmlspecialchars($_POST['con_subject']));
+            $message = mysqli_real_escape_string($conn, htmlspecialchars($_POST['con_message']));
+
+            $sql = "INSERT INTO writingnut_contact (date,time,name,email,phone,subject,message)
         VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
-        if (mysqli_query($conn, $sql)) {
-            // echo "New record has been added successfully !";
-        } else {
-            echo "Error: " . $sql . ":-" . mysqli_error($conn);
+
+            if (mysqli_query($conn, $sql)) {
+                // echo "New record has been added successfully !";
+            } else {
+                throw new Exception("Error: " . $sql . ":-" . mysqli_error($conn));
+            }
+        } catch (Exception $e) {
+            echo "Error: " . $e->getMessage();
         }
+
         mysqli_close($conn);
     }
     ?>
