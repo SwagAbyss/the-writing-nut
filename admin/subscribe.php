@@ -139,7 +139,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Contact List</h5>
+                <h5 class="card-title">Subscribe List</h5>
 
                 <!-- Table with stripped rows -->
                 <table class="table datatable">
