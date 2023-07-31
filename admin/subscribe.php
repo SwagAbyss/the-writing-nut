@@ -162,6 +162,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                           <?php echo $num++ ?>
                         </th>
                         <td>
+                          <?php echo "#" . $row['S.No']; ?>
+                        </td>
+                        <td>
                           <?php echo "#" . $row['id']; ?>
                         </td>
                         <td>
