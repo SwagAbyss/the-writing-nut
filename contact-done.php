@@ -87,7 +87,7 @@
                         <div class="logo">
                             <a href="index.html">
                                 <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-                                <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
+                               
                             </a>
                         </div>
                     </div>
