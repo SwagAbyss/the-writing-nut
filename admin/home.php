@@ -148,13 +148,17 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                       <th onclick="sortBy(0)">ID</th>
                       <th onclick="sortBy(1)">Date</th>
                       <th onclick="sortBy(2)">Time</th>
-                      <th onclick="sortBy(3)">Subscribers</th>
+                      <th onclick="sortBy(3)">Name</th>
+                      <th onclick="sortBy(4)">Email</th>
+                      <th onclick="sortBy(5)">Phone</th>
+                      <th onclick="sortBy(6)">Subject</th>
+                      <th onclick="sortBy(7)">Message</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php
                     $num = 1;
-                    $query = mysqli_query($conn, "select * from writingnut_sub");
+                    $query = mysqli_query($conn, "select * from writingnut_contact");
                     while ($row = mysqli_fetch_array($query)) {
                     ?>
                       <tr>
@@ -168,7 +172,19 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                           <?php echo $row['time']; ?>
                         </td>
                         <td>
+                          <?php echo $row['name']; ?>
+                        </td>
+                        <td>
                           <?php echo $row['email']; ?>
+                        </td>
+                        <td>
+                          <?php echo $row['phone']; ?>
+                        </td>
+                        <td>
+                          <?php echo $row['subject']; ?>
+                        </td>
+                        <td>
+                          <?php echo $row['message']; ?>
                         </td>
                       </tr>
                     <?php
