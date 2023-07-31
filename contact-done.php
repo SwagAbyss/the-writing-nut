@@ -1,4 +1,4 @@
-<?php
+<?php 
 {
 
 ?>
@@ -41,6 +41,27 @@
 </head>
 
 <body>
+
+<?php
+        include_once 'admin/config.php';
+        if (isset($_POST['submit'])) {
+            $date = date("d-m-Y");
+            $time = date("h:i");
+            $name = mysqli_real_escape_string($conn, $_POST['con_name']);
+            $email = mysqli_real_escape_string($conn, $_POST['con_email']);
+            $phone = mysqli_real_escape_string($conn, $_POST['con_phone']);
+            $subject = mysqli_real_escape_string($conn, $_POST['con_subject']);
+            $message = mysqli_real_escape_string($conn, $_POST['con_message']);
+            $sql = "INSERT INTO writingnut_contact (date,time,name,email,phone,subject,message)
+    VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
+            if (mysqli_query($conn, $sql)) {
+                echo "New record has been added successfully !";
+            } else {
+                echo "Error: " . $sql . ":-" . mysqli_error($conn);
+            }
+            mysqli_close($conn);
+        }
+        ?>
 
     <!-- Preloader -->
     <div class="preloader">
@@ -92,6 +113,7 @@
                         <div class="logo">
                             <a href="index.html">
                                 <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
+                               
                             </a>
                         </div>
                     </div>
@@ -106,10 +128,10 @@
                         </a>
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></li>
-                                <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></li>
-                                <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></li>
-                                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></i>
+                                <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
+                                <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
+                                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
                                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
@@ -131,11 +153,11 @@
                         </a>
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></li>
-                                <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></li>
-                                <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></li>
-                                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></li>
-                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us </a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></i>
+                                <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
+                                <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
+                                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us </a></i>
                             </ul>
                         </div>
                     </nav>
@@ -147,26 +169,6 @@
     </header>
     <!-- End Header Area -->
 
-    <?php
-        include_once 'admin/config.php';
-        if (isset($_POST['submit'])) {
-            $date = date("d-m-Y");
-            $time = date("h:i");
-            $name = mysqli_real_escape_string($conn, $_POST['con_name']);
-            $email = mysqli_real_escape_string($conn, $_POST['con_email']);
-            $phone = mysqli_real_escape_string($conn, $_POST['con_phone']);
-            $subject = mysqli_real_escape_string($conn, $_POST['con_subject']);
-            $message = mysqli_real_escape_string($conn, $_POST['con_message']);
-            $sql = "INSERT INTO writingnut_contact (date,time,name,email,phone,subject,message)
-    VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
-            if (mysqli_query($conn, $sql)) {
-                echo "New record has been added successfully !";
-            } else {
-                echo "Error: " . $sql . ":-" . mysqli_error($conn);
-            }
-            mysqli_close($conn);
-        }
-    ?>
     <!--End Contact us page php -->
 
     <!-- Start Error 404 Area -->
@@ -187,6 +189,7 @@
         </div>
     </div>
     <!-- End Error 404 Area -->
+ 
 
     <!-- Start Footer Area -->
     <footer class="footer-area footer-style-wrap">
@@ -200,7 +203,8 @@
                     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                     <script>
                         document.write(new Date().getFullYear())
-                    </script> <a href="index.html" target="_blank">The Writing Nut</a> All rights reserved | Designed & Developed by <a href="https://toolfe.com" target="_blank">Toolfe</a>
+                    </script> <a href="index.html" target="_blank">The
+                        Writing Nut</a> All rights reserved | Designed & Developed by <a href="https://toolfe.com target=" _blank">Toolfe</a>
                 </p>
             </div>
         </div>
@@ -217,6 +221,7 @@
         </label>
     </div>
     <!-- Dark version -->
+
 
     <!-- Links of JS files -->
     <script src="assets/js/jquery.min.js"></script>
@@ -252,7 +257,7 @@
 </body>
 
 </html>
-<?php
+<?php 
 }
 
 ?>
