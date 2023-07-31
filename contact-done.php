@@ -65,8 +65,7 @@
                             <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
                             <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
                             <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i
-                                    class='bx bxl-instagram'></i></a>
+                            <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i class='bx bxl-instagram'></i></a>
                         </div>
                     </div>
 
@@ -144,63 +143,61 @@
     </header>
     <!-- End Header Area -->
     <?php
-    include_once 'admin/config.php';     
-    if(isset($_POST['submit'])) 
-    {    
+    include_once 'admin/config.php';
+    if (isset($_POST['submit'])) {
         $date = date("d-m-Y");
         $time = date("h:i");
         $name = $_POST['name'];
-         $email = $_POST['email'];
-         $phone = $_POST['phone'];
-         $subject = $_POST['subject'];
-         $message = $_POST['message'];
-    $sql = "INSERT INTO toolfe_contact (date,time,name,email,phone,subject,message)
-         VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
-         if (mysqli_query($conn, $sql)) {
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $subject = $_POST['subject'];
+        $message = $_POST['message'];
+        $sql = "INSERT INTO writingnut_contact (date,time,name,email,phone,subject,message)
+        VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
+        if (mysqli_query($conn, $sql)) {
             // echo "New record has been added successfully !";
-    } else {
+        } else {
             echo "Error: " . $sql . ":-" . mysqli_error($conn);
-         }
-         mysqli_close($conn);
-    
         }
+        mysqli_close($conn);
+    }
     ?>
     <!--End Contact us page php -->
 
-        <!-- Start Error 404 Area -->
-        <div class="error-404-area">
-            <div class="container">
-                <div class="notfound">
-                    <div class="notfound-bg">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-
-                    <h1>Your Message Sent</h1>
-                    <h3>Thanks for your response</h3>
-                    <p>Our team will get in touch with you as soon as possible.</p>
-                    <a href="index.html" class="default-btn"><i class='bx bx-home-circle icon-arrow before'></i><span class="label">Back Home</span><i class="bx bx-home-circle icon-arrow after"></i></a>
+    <!-- Start Error 404 Area -->
+    <div class="error-404-area">
+        <div class="container">
+            <div class="notfound">
+                <div class="notfound-bg">
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
+
+                <h1>Your Message Sent</h1>
+                <h3>Thanks for your response</h3>
+                <p>Our team will get in touch with you as soon as possible.</p>
+                <a href="index.html" class="default-btn"><i class='bx bx-home-circle icon-arrow before'></i><span class="label">Back Home</span><i class="bx bx-home-circle icon-arrow after"></i></a>
             </div>
         </div>
-        <!-- End Error 404 Area -->
+    </div>
+    <!-- End Error 404 Area -->
 
-     
+
     <!-- Start Footer Area -->
     <footer class="footer-area footer-style-wrap">
-    
+
         <div class="footer-bottom-area footer-bottom-style-wrap">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png"
-                            alt="image"></a>
+                    <a href="index.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png" alt="image"></a>
                 </div>
                 <p><i class='bx bx-copyright'></i>
-                    <script data-cfasync="false"
-                        src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                    <script>document.write(new Date().getFullYear())</script> <a href="index.html" target="_blank">The
-                        Writing Nut</a> All rights reserved | Designed & Developed by  <a href="https://toolfe.com target=" _blank">Toolfe</a>
+                    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> <a href="index.html" target="_blank">The
+                        Writing Nut</a> All rights reserved | Designed & Developed by <a href="https://toolfe.com target=" _blank">Toolfe</a>
                 </p>
             </div>
         </div>
@@ -250,4 +247,5 @@
     <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script src="assets/js/rev-slider-custom.js"></script>
 </body>
+
 </html>
