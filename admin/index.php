@@ -15,7 +15,7 @@ $base_url = "http://www.thewritingnut.in/admin/";
 
   <!-- Favicons -->
   <link href="../assets/img/original_img/logo.jpeg" rel="icon">
-  <link href="../assets/img/original_img/logo.jpeg" rel="apple-touch-icon">
+  <!-- <link href="../assets/img/original_img/logo.jpeg" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
