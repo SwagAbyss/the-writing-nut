@@ -152,21 +152,23 @@
                 var_dump($_POST);
                 $date = date("d-m-Y");
                 $time = date("h:i");
-                $name = mysqli_real_escape_string($conn, $_POST['con_name']);
-                $email = mysqli_real_escape_string($conn, $_POST['con_email']);
-                $phone = mysqli_real_escape_string($conn, $_POST['con_phone']);
-                $subject = mysqli_real_escape_string($conn, $_POST['con_subject']);
-                $message = mysqli_real_escape_string($conn, $_POST['con_message']);
-                $sql = "INSERT INTO writingnut_contact (date,time,name,email,phone,subject,message)
-    VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
-                if (mysqli_query($conn, $sql)) {
-                    echo "New record has been added successfully !";
+                $name = $_POST['con_name'];
+                $email = $_POST['con_email'];
+                $phone = $_POST['con_phone'];
+                $subject = $_POST['con_subject'];
+                $message = $_POST['con_message'];
+                $sql = "INSERT INTO writingnut_contact (date, time, name, email, phone, subject, message) 
+        VALUES ('$date','$time','$name','$email','$phone','$subject', '$message')";
+                if ($conn->query($sql) === TRUE) {
+                    echo "New record created successfully";
                 } else {
-                    echo "Error: " . $sql . ":-" . mysqli_error($conn);
+                    echo "Error: " . $sql . "<br>" . $conn->error;
                 }
-                mysqli_close($conn);
+
+                $conn->close();
             }
             ?>
+
         </header>
         <!-- End Header Area -->
 
