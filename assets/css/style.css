@@ -9873,7 +9873,7 @@ Page Title CSS
 
 .page-title-content ul li::before {
   content: "\ea50";
-  color: #ffffff;
+  color: #252525;
   position: absolute;
   right: -25px;
   top: -4px;
