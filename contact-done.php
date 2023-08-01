@@ -1,7 +1,3 @@
-<?php 
-ini_set('display_errors',0);{
-
-?>
 
     <!doctype html>
     <html lang="zxx" class="theme-light">
@@ -260,7 +256,3 @@ ini_set('display_errors',0);{
     </body>
 
     </html>
-<?php
-}
-
-?>
