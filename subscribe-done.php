@@ -166,7 +166,7 @@
     <?php
     include_once './config.php';
     if (isset($_POST['submit'])) {
-        var_dump($_POST);
+        // var_dump($_POST);
         $date = date("d-m-Y");
         $time = date("h:i");
         $email = $_POST['sub_email'];
