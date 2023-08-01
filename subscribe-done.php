@@ -122,7 +122,7 @@
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
+                            <!-- <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo"> -->
                             <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse">
