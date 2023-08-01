@@ -30,13 +30,12 @@
     <!-- <link rel="stylesheet" href="assets/css/dark.css"> -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <title>The Writing Nut</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>WritingNut - Education Courses & Online Training HTML Template</title>
+
+    <link rel="icon" type="image/png" href="assets/img/original_img/logo.jpeg">
 </head>
 
 <body>
-
-
 
     <!-- Preloader -->
     <div class="preloader">
@@ -82,23 +81,23 @@
 
         <!-- Start Navbar Area -->
         <div class="navbar-area navbar-style-three">
-            <div class="raque-responsive-nav">
+            <div class="WritingNut-responsive-nav">
                 <div class="container">
-                    <div class="raque-responsive-menu">
+                    <div class="WritingNut-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
                                 <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
-
+                                <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="raque-nav">
+            <div class="WritingNut-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <!-- <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo"> -->
+                            <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                             <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu">
@@ -119,20 +118,20 @@
 
         <!-- Start Sticky Navbar Area -->
         <div class="navbar-area navbar-style-three header-sticky">
-            <div class="raque-nav">
+            <div class="WritingNut-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="./index.html">
                             <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                             <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo">
                         </a>
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></i>
-                                <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
-                                <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
-                                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
-                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us </a></i>
+                                <li class="nav-item"><a href="./index.html" class="nav-link">Home </a></i>
+                                <li class="nav-item"><a href="./about.html" class="nav-link">About Us </a></i>
+                                <li class="nav-item"><a href="./course.html" class="nav-link">Courses </a></i>
+                                <li class="nav-item"><a href="./gallery.html" class="nav-link">Gallery </a></i>
+                                <li class="nav-item"><a href="./contact.html" class="nav-link">Contact Us </a></i>
                             </ul>
                         </div>
                     </nav>
@@ -191,6 +190,86 @@
 
     <!-- Start Footer Area -->
     <footer class="footer-area footer-style-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-6">
+                    <div class="single-footer-widget mb-30">
+                        <h3>Contact Us</h3>
+
+                        <ul class="contact-us-link">
+                            <li>
+                                <i class='bx bx-map'></i>
+                                <a href="#" target="_blank">Chennai, Tamilnadu, India</a>
+                            </li>
+                            <li>
+                                <i class='bx bx-phone-call'></i>
+                                <a href="#">+91 994-006-7344</a>
+                            </li>
+                            <li>
+                                <i class='bx bx-envelope'></i>
+                                <a href="#"><span class="__cf_email__" data-cfemail="0e666b6262614e7c6f7f7b6b206d6163">thewritingnut@gmail.com</span></a>
+                            </li>
+                        </ul>
+
+                        <ul class="social-link">
+                            <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                            <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-pinterest-alt'></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget mb-30">
+                        <h3>Support</h3>
+
+                        <ul class="support-link">
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Condition</a></li>
+                            <li><a href="#">Policy</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget mb-30">
+                        <h3>Useful Link</h3>
+
+                        <ul class="useful-link">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget mb-30">
+                        <h3>Newsletter</h3>
+
+                        <div class="newsletter-box">
+                            <p>To get the latest news and latest updates from us.</p>
+
+                            <form id="contact-form" action="subscribe-done.php" method="POST" enctype="multipart/form-data">
+                                <label>Your e-mail address:</label>
+                                <input type="email" class="input-newsletter" placeholder="Enter your email" name="sub_email" required autocomplete="off">
+                                <button type="submit">Subscribe</button>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="footer-bottom-area footer-bottom-style-wrap">
             <div class="container">
@@ -212,14 +291,13 @@
     <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
 
     <!-- Dark version -->
-    <div class="dark-version">
+    <!-- <div class="dark-version">
         <label id="switch" class="switch">
             <input type="checkbox" onchange="toggleTheme()" id="slider">
             <span class="slider round"></span>
         </label>
-    </div>
+    </div> -->
     <!-- Dark version -->
-
 
     <!-- Links of JS files -->
     <script src="assets/js/jquery.min.js"></script>
@@ -237,21 +315,8 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>
     <script src="assets/js/main.js"></script>
-
-    <!-- Slider Revolution core JavaScript files -->
-    <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="assets/js/rev-slider-custom.js"></script>
 </body>
 
 </html>
