@@ -185,9 +185,8 @@
 
 
 
-    <!-- Start Footer Area -->
-    <footer class="footer-area footer-style-wrap">
-
+       <!-- Start Footer Area -->
+       <footer class="">
         <div class="footer-bottom-area footer-bottom-style-wrap">
             <div class="container">
                 <div class="logo">
@@ -232,21 +231,8 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>
     <script src="assets/js/main.js"></script>
-
-    <!-- Slider Revolution core JavaScript files -->
-    <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="assets/js/rev-slider-custom.js"></script>
 </body>
 
 </html>
