@@ -86,7 +86,7 @@
                 <div class="container">
                     <div class="WritingNut-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="#">
                                 <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                                 <!-- <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo"> -->
                             </a>
