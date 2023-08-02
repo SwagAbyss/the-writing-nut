@@ -32,7 +32,7 @@
 
     <title>The Writing Nut : Your Pathway to Language Talent</title>
 
-    <link rel="icon" type="image/png" href="../assets/img/original_img/logo.jpeg">
+    <link rel="icon" type="image/png" href="assets/img/original_img/logo.jpeg">
 </head>
 
 <body>
@@ -81,9 +81,9 @@
 
         <!-- Start Navbar Area -->
         <div class="navbar-area navbar-style-three">
-            <div class="raque-responsive-nav">
+            <div class="WritingNut-responsive-nav">
                 <div class="container">
-                    <div class="raque-responsive-menu">
+                    <div class="WritingNut-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
                                 <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            <div class="raque-nav">
+            <div class="WritingNut-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
@@ -118,20 +118,20 @@
 
         <!-- Start Sticky Navbar Area -->
         <div class="navbar-area navbar-style-three header-sticky">
-            <div class="raque-nav">
+            <div class="WritingNut-nav">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <!-- <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo"> -->
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="assets/img/original_img/wnb.png" class="black-logo" alt="logo">
                             <!-- <img src="assets/img/original_img/wnw.png" class="white-logo" alt="logo"> -->
                         </a>
                         <div class="collapse navbar-collapse">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a href="index.html" class="nav-link">Home </a></i>
-                                <li class="nav-item"><a href="about.html" class="nav-link">About Us </a></i>
-                                <li class="nav-item"><a href="course.html" class="nav-link">Courses </a></i>
-                                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery </a></i>
-                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us </a></i>
+                                <li class="nav-item"><a href="./index.html" class="nav-link">Home </a></i>
+                                <li class="nav-item"><a href="./about.html" class="nav-link">About Us </a></i>
+                                <li class="nav-item"><a href="./course.html" class="nav-link">Courses </a></i>
+                                <li class="nav-item"><a href="./gallery.html" class="nav-link">Gallery </a></i>
+                                <li class="nav-item"><a href="./contact.html" class="nav-link">Contact Us </a></i>
                             </ul>
                         </div>
                     </nav>
