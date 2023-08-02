@@ -188,7 +188,7 @@
     <!-- Start Footer Area -->
     <footer class="footer-area footer-style-wrap">
 
-        <div class="footer-bottom-area footer-bottom-style-wrap">
+        <div class="">
             <div class="container">
                 <div class="logo">
                     <a href="index.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png" alt="image"></a>
