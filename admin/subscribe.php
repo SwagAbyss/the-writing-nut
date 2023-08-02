@@ -120,7 +120,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <li class="nav-item">
           <a class="nav-link collapsed" href="subscribe.php">
             <i class="bi bi-journal-text"></i>
-            <span>Subscribe</span>
+            <span>Subscribers</span>
           </a>
         </li><!-- End Dashboard Nav -->
 
