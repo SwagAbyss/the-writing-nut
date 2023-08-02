@@ -30,7 +30,7 @@
     <!-- <link rel="stylesheet" href="assets/css/dark.css"> -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <title>WritingNut - Education Courses & Online Training HTML Template</title>
+    <title>The Writing Nut : Your Pathway to Language Talent</title>
 
     <link rel="icon" type="image/png" href="assets/img/original_img/logo.jpeg">
 </head>
