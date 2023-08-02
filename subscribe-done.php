@@ -174,7 +174,7 @@
         $sql = "INSERT INTO writingnut_sub (date,time,email)
         VALUES ('$date','$time','$email')";
         if ($conn->query($sql) === TRUE) {
-            echo "New record created successfully";
+            // echo "New record created successfully";
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
