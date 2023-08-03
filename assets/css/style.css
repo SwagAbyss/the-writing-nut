@@ -18086,7 +18086,7 @@ Motivation Courses Area CSS
 }
 
 .single-motivation-courses-item .courses-image img {
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .single-motivation-courses-item .courses-image .price {
