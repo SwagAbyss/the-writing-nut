@@ -114,9 +114,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <li class="nav-item">
           <a class="nav-link collapsed" href="home.php">
             <i class="bi bi-grid"></i>
-            <span>Dashboard</span>
+            <span>Contacts</span>
           </a>
-        </li><!-- End Dashboard Nav -->
+        </li><!-- End Contacts Nav -->
         <li class="nav-item">
           <a class="nav-link collapsed" href="subscribe.php">
             <i class="bi bi-journal-text"></i>
