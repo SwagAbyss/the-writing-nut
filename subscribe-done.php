@@ -190,7 +190,7 @@
         <div class="footer-bottom-area footer-bottom-style-wrap">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html" class="d-inline-block"><img src="assets/img/original_img/wnw.png" alt="image"></a>
+                    <a href="#" class="d-inline-block"><img src="assets/img/original_img/wnb.png" alt="image"></a>
                 </div>
                 <p><i class='bx bx-copyright'></i>
                     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
