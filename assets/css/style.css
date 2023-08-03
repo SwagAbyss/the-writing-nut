@@ -18109,6 +18109,7 @@ Motivation Courses Area CSS
 
 .single-motivation-courses-item .courses-content {
   padding: 25px 25px 25px;
+  border: 1px solid;
 }
 
 .single-motivation-courses-item .courses-content .course-author {
