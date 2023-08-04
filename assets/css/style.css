@@ -72,7 +72,7 @@ body {
 body::-webkit-scrollbar{
   width: 15px;
   display:block;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 body::-webkit-scrollbar-track{
   background-color: #ffffff;
