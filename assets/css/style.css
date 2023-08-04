@@ -72,10 +72,10 @@ body {
 body::-webkit-scrollbar{
   width: 20px;
   border-radius: 25px;
-  display:none
+  display:block
 }
 body::-webkit-scrollbar-thumb{
-  color:#005d40;
+  color:#000000;
   border-radius: 25px;
   width: 25px;
 }
