@@ -72,6 +72,7 @@ body {
 body::-webkit-scrollbar{
   width: 20px;
   border-radius: 25px;
+  display:none
 }
 body::-webkit-scrollbar-thumb{
   color:#005d40;
