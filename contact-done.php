@@ -56,15 +56,14 @@
                         <ul class="top-header-contact-info">
                             <li>
                                 Call:
-                                <a href="tel:9940067344">+91 994-006-7344</a>
+                                <a href="tel:9940067344">+91 9940078344</a>
                             </li>
                         </ul>
 
                         <div class="top-header-social">
                             <span>Follow us:</span>
-                            <a href="#" ><i class='bx bxl-facebook'></i></a>
-                            <a href="#" ><i class='bx bxl-twitter'></i></a>
-                            <a href="#" ><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100085424340937&mibextid=9R9pXO" target="_blank" ><i class='bx bxl-facebook'></i></a>
+                            <a href="https://www.linkedin.com/in/the-writing-nut-277b68220" target="_blank"><i class='bx bxl-linkedin'></i></a>
                             <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i
                                     class='bx bxl-instagram'></i></a>
                         </div>
