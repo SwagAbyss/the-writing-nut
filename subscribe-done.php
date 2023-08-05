@@ -197,7 +197,7 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script> <a href="index.html" target="_blank">The
-                        Writing Nut</a> All rights reserved | Designed & Developed by <a href="https://toolfe.com target=" _blank">Toolfe</a>
+                        Writing Nut</a> All rights reserved | Designed & Developed by <a href="https://toolfe.com "target=" _blank">Toolfe</a>
                 </p>
             </div>
         </div>
