@@ -63,7 +63,7 @@
                         <div class="top-header-social">
                             <span>Follow us:</span>
                             <a href="#" ><i class='bx bxl-facebook'></i></a>
-                            <a href="#" ><i class='bx bxl-twitter'></i></a>
+                    <br>
                             <a href="#" ><i class='bx bxl-linkedin'></i></a>
                             <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i
                                     class='bx bxl-instagram'></i></a>
