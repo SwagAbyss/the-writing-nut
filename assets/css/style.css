@@ -130,6 +130,7 @@ p:last-child {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 25px;
 }
 
 .ptb-100 {
