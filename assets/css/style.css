@@ -381,7 +381,7 @@ h6:last-child {
   color: #252525;
   background-color: #ffffff;
   border: 1px solid #e6e9fc;
-  border-radius: 3px;
+  border-radius: 15px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 15px;
