@@ -242,7 +242,7 @@ h6:last-child {
   border-width: 2px;
   border-style: solid;
   border-color: #1d4a05;
-  border-radius: 1px;
+  border-radius: 25px;
   font-size: 14.5px;
   font-weight: 700;
 }
@@ -297,6 +297,7 @@ h6:last-child {
   background-color: #0eb582;
   color: #ffffff;
   border-color: #0eb582;
+  border-radius: 25px;
 }
 
 .default-btn:hover .label,
