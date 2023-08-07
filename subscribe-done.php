@@ -56,16 +56,18 @@
                         <ul class="top-header-contact-info">
                             <li>
                                 Call:
-                                <a href="tel:+91 9940078344">+91 9940078344</a>
+                                <a href="tel:+91 9940078344">+91 9940078344, </a>
+                                <a href="tel:+91 8248083597">+91 8248083597</a>
                             </li>
                         </ul>
 
                         <div class="top-header-social">
                             <span>Follow us:</span>
-                            <a href="https://www.facebook.com/profile.php?id=100085424340937&mibextid=9R9pXO" target="_blank" ><i class='bx bxl-facebook'></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100085424340937&mibextid=9R9pXO" target="_blank"><i class='bx bxl-facebook'></i></a>
                             <a href="https://www.linkedin.com/in/the-writing-nut-277b68220" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i
-                                    class='bx bxl-instagram'></i></a>
+                            <a href="https://instagram.com/the_writing_nut?igshid=Y2IzZGU1MTFhOQ==" target="_blank"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://pin.it/5WN4VR4" target="_blank"><i class='bx bxl-pinterest'></i></a>
+                            <a href="https://youtube.com/@thewritingnut1616?si=pTUyE6hQ6fgRAUPM" target="_blank"><i class='bx bxl-youtube'></i></a>
                         </div>
                     </div>
 
@@ -184,8 +186,8 @@
 
 
 
-       <!-- Start Footer Area -->
-       <footer class="">
+    <!-- Start Footer Area -->
+    <footer class="">
         <div class="footer-bottom-area footer-bottom-style-wrap">
             <div class="container">
                 <div class="logo">
@@ -196,7 +198,7 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script> <a href="index.html" target="_blank">The
-                        Writing Nut</a> All rights reserved | Designed & Developed by <a href="https://toolfe.com "target=" _blank">Toolfe</a>
+                        Writing Nut</a> All rights reserved | Designed & Developed by <a href="https://toolfe.com " target=" _blank">Toolfe</a>
                 </p>
             </div>
         </div>
@@ -206,7 +208,7 @@
     <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
 
     <!-- Dark version -->
-     <!-- <div class="dark-version">
+    <!-- <div class="dark-version">
         <label id="switch" class="switch">
             <input type="checkbox" onchange="toggleTheme()" id="slider">
             <span class="slider round"></span>
