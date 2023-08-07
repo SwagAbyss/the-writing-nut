@@ -70,7 +70,7 @@ body {
   font-size: 15px;
 }
 body::-webkit-scrollbar{
-  width: 15px;
+  width: 10px;
   display:block;
   
 }
@@ -80,7 +80,7 @@ body::-webkit-scrollbar-track{
   
 }
 body::-webkit-scrollbar-thumb{
-  background-color:#000000;
+  background-color:#535353;
   
 }
 a {
@@ -134,7 +134,7 @@ img {
 }
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 55px;
 }
 
 .pb-100 {
@@ -151,7 +151,7 @@ img {
 }
 
 .pb-70 {
-  padding-bottom: 70px;
+  padding-bottom: 0px;
 }
 
 .mb-30 {
