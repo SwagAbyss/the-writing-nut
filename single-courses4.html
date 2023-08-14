@@ -55,7 +55,7 @@
         "brandSetting": {
             "brandName": "The Writing Nut",
             "brandSubTitle": "Typically replies within a day",
-            "brandImg": "https://toolfe.com/assets/imgs/clients/favicon-whatsapp.png",
+            "brandImg": assets/img/original_img/logo.jpeg,
             "welcomeText": "Hi there!\nHow can I help you?",
             "messageText": "Hello, I have a question about {{page_link}}",
             "backgroundColor": "#1271BB",
