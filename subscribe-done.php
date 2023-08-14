@@ -55,10 +55,10 @@
         "brandSetting": {
             "brandName": "The Writing Nut",
             "brandSubTitle": "Typically replies within a day",
-            "brandImg": assets/img/original_img/logo.jpeg,
+            "brandImg": "assets/img/original_img/logo.jpeg",
             "welcomeText": "Hi there!\nHow can I help you?",
             "messageText": "Hello, I have a question about {{page_link}}",
-            "backgroundColor": "#1271BB",
+            "backgroundColor": "#1d4a05",
             "ctaText": "Start Chat",
             "borderRadius": "25",
             "autoShow": false,
