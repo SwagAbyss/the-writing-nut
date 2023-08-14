@@ -62,7 +62,7 @@
             "ctaText": "Start Chat",
             "borderRadius": "25",
             "autoShow": false,
-            "phoneNumber": "9940078344"
+            "phoneNumber": "+91 9940078344"
         }
     };
     s.onload = function() {
