@@ -4551,7 +4551,7 @@ Offer CSS
 }
 
 .col-lg-4:nth-child(2) .single-offer-box::before {
-  background: #1d4a05;
+  background: lightsalmon;
 }
 
 .col-lg-4:nth-child(2) .single-offer-box .icon {
