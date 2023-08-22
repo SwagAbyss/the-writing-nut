@@ -4420,7 +4420,7 @@ Offer CSS
   position: relative;
   z-index: 1;
   background-color: #1d4a05;
-  background-image: url(../img/offer-bg.jpg);
+  background-image: none;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
