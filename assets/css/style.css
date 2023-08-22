@@ -4445,7 +4445,7 @@ Offer CSS
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 20%;
+  height: -3%;
   z-index: -1;
   background-color: #ffffff;
 }
