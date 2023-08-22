@@ -9880,7 +9880,7 @@ Page Title CSS
 
 .page-title-content ul li a {
   display: inline-block;
-  color: #252525;
+  color: #ffffff;
   opacity: .85;
 }
 
@@ -9913,7 +9913,7 @@ Page Title CSS
 }
 
 .page-title-content h2 {
-  color: #252525;
+  color: #ffffff;
   margin-bottom: 0;
   font-size: 42px;
   font-weight: 700;
